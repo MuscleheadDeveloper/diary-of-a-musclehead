@@ -15,6 +15,21 @@
     "jsx": "preserve",
     "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": [
+    "next-env.d.js",
+    "components/Categories.jsx",
+    "components/Footer.jsx",
+    "components/Header.jsx",
+    "components/Layout.jsx",
+    "components/index.jsx",
+    "next-env.d.js",
+    "**/*.js",
+    "**/*.jsx",
+    "components/PostWidget.jsx",
+    "components/PostCard.jsx",
+    "services/index.jsx",
+    "pages/_app.jsx",
+    "pages/index.jsx"
+  ],
   "exclude": ["node_modules"]
 }
