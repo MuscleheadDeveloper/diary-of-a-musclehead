@@ -3,10 +3,12 @@ import { PostCard, Categories, PostWidget } from "../components";
 import { FeaturedPosts } from "../sections/index";
 import { getPosts } from "../services";
 
+
 export default function Home ({posts}) {
   return (
     <div className="container mx-auto px-10 mb-8">
       <FeaturedPosts />
+    
       <Head>
         <title> Diary of a musclehead </title>
         <link rel="icon" href="/favicon.ico" />
